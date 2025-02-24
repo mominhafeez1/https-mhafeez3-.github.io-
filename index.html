@@ -3,42 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My GitHub Page</title>
+    <title>My Webpage</title>
     <style>
         body {
             font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
             text-align: center;
-            margin: 50px;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #343a40;
+            color: white;
+            padding: 20px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .container {
+            width: 60%;
+            margin: 40px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         table {
-            width: 50%;
-            margin: auto;
+            width: 100%;
             border-collapse: collapse;
+            margin-top: 20px;
         }
         th, td {
-            border: 1px solid black;
-            padding: 10px;
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
         }
         th {
-            background-color: #f2f2f2;
+            background-color: #28a745;
+            color: white;
+        }
+        .footer {
+            background-color: #343a40;
+            color: white;
+            padding: 10px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
         }
     </style>
 </head>
 <body>
-    <h1>Welcome to My Webpage</h1>
-    <table>
-        <tr>
-            <th>Name</th>
-            <td>Momin Hafeez</td>
-        </tr>
-        <tr>
-            <th>Introduction</th>
-            <td>Hello! I am a junior at GMU majoring in IT. This webpage was created as part of my IT 304 coursework.</td>
-        </tr>
-        <tr>
-            <th>Hobbies</th>
-            <td>In my free time, I enjoy playing video games and staying active through fitness activities.</td>
-        </tr>
-    </table>
+    <div class="header">Welcome to My Webpage</div>
+    <div class="container">
+        <h2>About This Page</h2>
+        <table>
+            <tr>
+                <th>Name</th>
+                <td>Momin Hafeez</td>
+            </tr>
+            <tr>
+                <th>Introduction</th>
+                <td>Hi, I am a junior at GMU majoring in IT. I created this webpage as part of my IT 304 class.</td>
+            </tr>
+            <tr>
+                <th>Hobbies</th>
+                <td>My hobbies include playing video games and staying active through workouts.</td>
+            </tr>
+        </table>
+    </div>
+    <div class="footer">© Momin Hafeez</div>
 </body>
 </html>
+
